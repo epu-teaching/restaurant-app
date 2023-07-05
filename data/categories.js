@@ -1,7 +1,7 @@
 const categories = [
     {
         id: 1,
-        title: 'Breakfast',
+        title: 'Breakfast 2',
         image: require('../assets/categories/1.png')
     },
     {

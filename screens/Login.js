@@ -15,14 +15,14 @@ export default function Login({ navigation }) {
             alert('Vui lòng nhập đầy đủ thông tin');
         }
         else {
-            const auth = await AsyncStorage.getItem('currentUser');
+            // const auth = await AsyncStorage.getItem('currentUser');
 
-            if (auth && email === JSON.parse(auth).email && password === JSON.parse(auth).password) {
+            // if (auth && email === JSON.parse(auth).email && password === JSON.parse(auth).password) {
                 navigation.navigate('HomeScreen')
-            }
-            else {
-                alert('Sai tên tài khoản hoặc mật khẩu');
-            }
+            // }
+            // else {
+            //     alert('Sai tên tài khoản hoặc mật khẩu');
+            // }
         }
     }
     return (
